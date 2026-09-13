@@ -70,9 +70,13 @@ Interactive docs (Swagger UI): http://127.0.0.1:8000/docs
 
 Method	Endpoint	                Description	            Status
 POST	/transactions/add	        Add a new transaction	[x]
+
 GET	    /transactions/calculate	    Calculate totals	    [x]
+
 GET	    /transactions/print	        List all transactions	[x]
+
 POST	/user/info	                Save user info	        [x]
+
 POST	/ia/ask	                    Ask the AI assistant	[] In progress
 
 #### Example request
