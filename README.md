@@ -27,17 +27,18 @@ The project follows a **YOAK (Your Own API Key)** model: users provide their own
 - **Uvicorn** — ASGI server
 
 ## Project structure
-
+```
 your-simple-finances/
 ├── Backend/
-│ ├── AI_Client.py # AI integration (Groq)
-│ ├── financial_Info.py # Financial data model and calculations
-│ └── user_Info.py # User model
-├── main.py # FastAPI app and endpoints
+│   ├── AI_Client.py         # AI integration (Groq)
+│   ├── financial_Info.py    # Financial data model and calculations
+│   └── user_Info.py         # User model
+├── main.py                  # FastAPI app and endpoints
 ├── requirements.txt
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 
 ## Getting started
@@ -111,6 +112,7 @@ No tests. Test coverage with pytest is planned.
 AI endpoint incomplete. The /ia/ask endpoint is not functional yet.
 
 ## Roadmap
+```
 [] Complete the AI assistant endpoint.
 [] Implement per-user sessions (in-memory).
 [] Add authentication (JWT).
@@ -120,7 +122,7 @@ AI endpoint incomplete. The /ia/ask endpoint is not functional yet.
 [] Add rate limiting.
 [] Build the frontend.
 [] Add Docker support.
-
+```
 ## What I learned
 
 Building YSF taught me:
